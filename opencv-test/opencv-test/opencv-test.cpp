@@ -12,7 +12,7 @@ using namespace std;
 
 int main()
 {
-	Mat im = imread("C:/Users/sacha/OneDrive/Images/circle.jpg");
+	Mat im = imread("C:/Users/Delanium/Documents/Seoul/Digital Image Processing/Project #1/circle.jpg");
 	if (im.empty())
 	{
 		cout << "Cannot load image!" << endl;
